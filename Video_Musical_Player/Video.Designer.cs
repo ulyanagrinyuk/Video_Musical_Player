@@ -131,7 +131,7 @@
 			this.panel.Controls.Add(this.listBoxFilm);
 			this.panel.Location = new System.Drawing.Point(2, 361);
 			this.panel.Name = "panel";
-			this.panel.Size = new System.Drawing.Size(775, 77);
+			this.panel.Size = new System.Drawing.Size(775, 85);
 			this.panel.TabIndex = 2;
 			// 
 			// WMP
@@ -140,7 +140,7 @@
 			this.WMP.Location = new System.Drawing.Point(2, 3);
 			this.WMP.Name = "WMP";
 			this.WMP.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("WMP.OcxState")));
-			this.WMP.Size = new System.Drawing.Size(786, 352);
+			this.WMP.Size = new System.Drawing.Size(775, 352);
 			this.WMP.TabIndex = 0;
 			// 
 			// Video

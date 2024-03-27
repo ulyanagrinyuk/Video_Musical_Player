@@ -28,5 +28,6 @@ namespace Video_Musical_Player
 			Musical musical = new Musical();
 			musical.Show();
 		}
+
 	}
 }
