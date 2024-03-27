@@ -121,6 +121,7 @@
 			this.btnPlay.TabIndex = 9;
 			this.btnPlay.Text = "Play";
 			this.btnPlay.UseVisualStyleBackColor = false;
+			this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click_1);
 			// 
 			// MediaPlayer
 			// 
@@ -145,10 +146,10 @@
 			this.Controls.Add(this.btnSelect);
 			this.Controls.Add(this.ListBoxSongs);
 			this.Controls.Add(this.MediaPlayer);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
 			this.Name = "Musical";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Musical";
-			this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
 			((System.ComponentModel.ISupportInitialize)(this.MediaPlayer)).EndInit();
 			this.ResumeLayout(false);
 

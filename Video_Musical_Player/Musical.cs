@@ -23,12 +23,10 @@ namespace Video_Musical_Player
 		{
 			MediaPlayer.URL = paths[ListBoxSongs.SelectedIndex];
 		}
-
-		private void btnPlay_Click(object sender, EventArgs e)
+		private void btnPlay_Click_1(object sender, EventArgs e)
 		{
 			MediaPlayer.Ctlcontrols.play();
 		}
-
 		private void btnStop_Click(object sender, EventArgs e)
 		{
 			MediaPlayer.Ctlcontrols.stop();
@@ -48,7 +46,7 @@ namespace Video_Musical_Player
 		{
 			(ListBoxSongs.SelectedIndex)--;
 		}
-
+				
 
 		private void btnSelect_Click(object sender, EventArgs e)
 		{
