@@ -51,12 +51,15 @@
 			// 
 			// btnSelect
 			// 
-			this.btnSelect.Location = new System.Drawing.Point(650, 372);
+			this.btnSelect.BackColor = System.Drawing.Color.DarkRed;
+			this.btnSelect.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.btnSelect.ForeColor = System.Drawing.SystemColors.ButtonFace;
+			this.btnSelect.Location = new System.Drawing.Point(650, 385);
 			this.btnSelect.Name = "btnSelect";
-			this.btnSelect.Size = new System.Drawing.Size(116, 48);
+			this.btnSelect.Size = new System.Drawing.Size(116, 35);
 			this.btnSelect.TabIndex = 2;
 			this.btnSelect.Text = "SelectSongs";
-			this.btnSelect.UseVisualStyleBackColor = true;
+			this.btnSelect.UseVisualStyleBackColor = false;
 			this.btnSelect.Click += new System.EventHandler(this.btnSelect_Click);
 			// 
 			// MediaPlayer
@@ -70,57 +73,68 @@
 			// 
 			// btnStop
 			// 
+			this.btnStop.BackColor = System.Drawing.Color.Orange;
+			this.btnStop.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.btnStop.Location = new System.Drawing.Point(308, 372);
 			this.btnStop.Name = "btnStop";
 			this.btnStop.Size = new System.Drawing.Size(82, 32);
 			this.btnStop.TabIndex = 5;
 			this.btnStop.Text = "Stop";
-			this.btnStop.UseVisualStyleBackColor = true;
+			this.btnStop.UseVisualStyleBackColor = false;
 			this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
 			// 
 			// btnPause
 			// 
+			this.btnPause.BackColor = System.Drawing.Color.Salmon;
+			this.btnPause.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.btnPause.Location = new System.Drawing.Point(0, 372);
 			this.btnPause.Name = "btnPause";
 			this.btnPause.Size = new System.Drawing.Size(108, 32);
 			this.btnPause.TabIndex = 6;
 			this.btnPause.Text = "Pause";
-			this.btnPause.UseVisualStyleBackColor = true;
+			this.btnPause.UseVisualStyleBackColor = false;
 			this.btnPause.Click += new System.EventHandler(this.btnPause_Click);
 			// 
 			// btnBack
 			// 
+			this.btnBack.BackColor = System.Drawing.Color.Aqua;
+			this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.btnBack.Location = new System.Drawing.Point(408, 372);
 			this.btnBack.Name = "btnBack";
 			this.btnBack.Size = new System.Drawing.Size(87, 32);
 			this.btnBack.TabIndex = 7;
 			this.btnBack.Text = "Back";
-			this.btnBack.UseVisualStyleBackColor = true;
+			this.btnBack.UseVisualStyleBackColor = false;
 			this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
 			// 
 			// btnNext
 			// 
+			this.btnNext.BackColor = System.Drawing.Color.Tomato;
+			this.btnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.btnNext.Location = new System.Drawing.Point(515, 372);
 			this.btnNext.Name = "btnNext";
 			this.btnNext.Size = new System.Drawing.Size(85, 32);
 			this.btnNext.TabIndex = 8;
 			this.btnNext.Text = "Next";
-			this.btnNext.UseVisualStyleBackColor = true;
+			this.btnNext.UseVisualStyleBackColor = false;
 			this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
 			// 
 			// btnPlay
 			// 
+			this.btnPlay.BackColor = System.Drawing.Color.CadetBlue;
+			this.btnPlay.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.btnPlay.Location = new System.Drawing.Point(210, 372);
 			this.btnPlay.Name = "btnPlay";
 			this.btnPlay.Size = new System.Drawing.Size(79, 32);
 			this.btnPlay.TabIndex = 9;
 			this.btnPlay.Text = "Play";
-			this.btnPlay.UseVisualStyleBackColor = true;
+			this.btnPlay.UseVisualStyleBackColor = false;
 			// 
 			// Musical
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.Color.DarkBlue;
 			this.ClientSize = new System.Drawing.Size(800, 450);
 			this.Controls.Add(this.btnPlay);
 			this.Controls.Add(this.btnNext);

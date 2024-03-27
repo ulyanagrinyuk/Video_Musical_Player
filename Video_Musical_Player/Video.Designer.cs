@@ -44,71 +44,85 @@
 			// 
 			// btnOpen
 			// 
-			this.btnOpen.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.btnOpen.Location = new System.Drawing.Point(633, 25);
+			this.btnOpen.BackColor = System.Drawing.Color.Yellow;
+			this.btnOpen.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.btnOpen.Location = new System.Drawing.Point(633, 16);
 			this.btnOpen.Name = "btnOpen";
-			this.btnOpen.Size = new System.Drawing.Size(126, 45);
+			this.btnOpen.Size = new System.Drawing.Size(126, 54);
 			this.btnOpen.TabIndex = 1;
 			this.btnOpen.Text = "FileOpen";
-			this.btnOpen.UseVisualStyleBackColor = true;
+			this.btnOpen.UseVisualStyleBackColor = false;
 			this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
 			// 
 			// btnPlay
 			// 
-			this.btnPlay.Location = new System.Drawing.Point(2, 322);
+			this.btnPlay.BackColor = System.Drawing.Color.Chartreuse;
+			this.btnPlay.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.btnPlay.Location = new System.Drawing.Point(240, 322);
 			this.btnPlay.Name = "btnPlay";
-			this.btnPlay.Size = new System.Drawing.Size(106, 33);
+			this.btnPlay.Size = new System.Drawing.Size(85, 33);
 			this.btnPlay.TabIndex = 4;
 			this.btnPlay.Text = "Play";
-			this.btnPlay.UseVisualStyleBackColor = true;
+			this.btnPlay.UseVisualStyleBackColor = false;
 			this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
 			// 
 			// btnStop
 			// 
-			this.btnStop.Location = new System.Drawing.Point(246, 322);
+			this.btnStop.BackColor = System.Drawing.Color.Crimson;
+			this.btnStop.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.btnStop.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.btnStop.Location = new System.Drawing.Point(380, 322);
 			this.btnStop.Name = "btnStop";
-			this.btnStop.Size = new System.Drawing.Size(97, 33);
+			this.btnStop.Size = new System.Drawing.Size(87, 33);
 			this.btnStop.TabIndex = 6;
 			this.btnStop.Text = "Stop";
-			this.btnStop.UseVisualStyleBackColor = true;
+			this.btnStop.UseVisualStyleBackColor = false;
 			this.btnStop.Click += new System.EventHandler(this.btnStop_Click_1);
 			// 
 			// btnPause
 			// 
-			this.btnPause.Location = new System.Drawing.Point(395, 322);
+			this.btnPause.BackColor = System.Drawing.Color.PaleVioletRed;
+			this.btnPause.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.btnPause.Location = new System.Drawing.Point(2, 322);
 			this.btnPause.Name = "btnPause";
-			this.btnPause.Size = new System.Drawing.Size(96, 33);
+			this.btnPause.Size = new System.Drawing.Size(105, 33);
 			this.btnPause.TabIndex = 7;
 			this.btnPause.Text = "Pause";
-			this.btnPause.UseVisualStyleBackColor = true;
+			this.btnPause.UseVisualStyleBackColor = false;
 			this.btnPause.Click += new System.EventHandler(this.btnPause_Click);
 			// 
 			// btnBack
 			// 
-			this.btnBack.Location = new System.Drawing.Point(550, 322);
+			this.btnBack.BackColor = System.Drawing.Color.LightSkyBlue;
+			this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.btnBack.Location = new System.Drawing.Point(519, 322);
 			this.btnBack.Name = "btnBack";
 			this.btnBack.Size = new System.Drawing.Size(95, 33);
 			this.btnBack.TabIndex = 8;
 			this.btnBack.Text = "Back";
-			this.btnBack.UseVisualStyleBackColor = true;
+			this.btnBack.UseVisualStyleBackColor = false;
 			this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
 			// 
 			// btnNext
 			// 
-			this.btnNext.Location = new System.Drawing.Point(686, 322);
+			this.btnNext.BackColor = System.Drawing.Color.DarkMagenta;
+			this.btnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.btnNext.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+			this.btnNext.Location = new System.Drawing.Point(670, 322);
 			this.btnNext.Name = "btnNext";
 			this.btnNext.Size = new System.Drawing.Size(91, 33);
 			this.btnNext.TabIndex = 9;
 			this.btnNext.Text = "Next";
-			this.btnNext.UseVisualStyleBackColor = true;
+			this.btnNext.UseVisualStyleBackColor = false;
 			this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
 			// 
 			// listBoxFilm
 			// 
+			this.listBoxFilm.BackColor = System.Drawing.SystemColors.MenuHighlight;
 			this.listBoxFilm.FormattingEnabled = true;
-			this.listBoxFilm.Location = new System.Drawing.Point(0, 0);
+			this.listBoxFilm.Location = new System.Drawing.Point(0, 3);
 			this.listBoxFilm.Name = "listBoxFilm";
-			this.listBoxFilm.Size = new System.Drawing.Size(363, 82);
+			this.listBoxFilm.Size = new System.Drawing.Size(363, 69);
 			this.listBoxFilm.TabIndex = 10;
 			// 
 			// panel
@@ -133,6 +147,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.SystemColors.ScrollBar;
 			this.ClientSize = new System.Drawing.Size(800, 450);
 			this.Controls.Add(this.btnNext);
 			this.Controls.Add(this.btnBack);
