@@ -31,12 +31,12 @@
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Musical));
 			this.ListBoxSongs = new System.Windows.Forms.ListBox();
 			this.btnSelect = new System.Windows.Forms.Button();
-			this.MediaPlayer = new AxWMPLib.AxWindowsMediaPlayer();
 			this.btnStop = new System.Windows.Forms.Button();
 			this.btnPause = new System.Windows.Forms.Button();
 			this.btnBack = new System.Windows.Forms.Button();
 			this.btnNext = new System.Windows.Forms.Button();
 			this.btnPlay = new System.Windows.Forms.Button();
+			this.MediaPlayer = new AxWMPLib.AxWindowsMediaPlayer();
 			((System.ComponentModel.ISupportInitialize)(this.MediaPlayer)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -63,20 +63,11 @@
 			this.btnSelect.UseVisualStyleBackColor = false;
 			this.btnSelect.Click += new System.EventHandler(this.btnSelect_Click);
 			// 
-			// MediaPlayer
-			// 
-			this.MediaPlayer.Enabled = true;
-			this.MediaPlayer.Location = new System.Drawing.Point(0, 0);
-			this.MediaPlayer.Name = "MediaPlayer";
-			this.MediaPlayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("MediaPlayer.OcxState")));
-			this.MediaPlayer.Size = new System.Drawing.Size(610, 404);
-			this.MediaPlayer.TabIndex = 4;
-			// 
 			// btnStop
 			// 
 			this.btnStop.BackColor = System.Drawing.Color.Orange;
 			this.btnStop.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.btnStop.Location = new System.Drawing.Point(308, 372);
+			this.btnStop.Location = new System.Drawing.Point(312, 380);
 			this.btnStop.Name = "btnStop";
 			this.btnStop.Size = new System.Drawing.Size(82, 32);
 			this.btnStop.TabIndex = 5;
@@ -88,7 +79,7 @@
 			// 
 			this.btnPause.BackColor = System.Drawing.Color.Salmon;
 			this.btnPause.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.btnPause.Location = new System.Drawing.Point(0, 372);
+			this.btnPause.Location = new System.Drawing.Point(0, 380);
 			this.btnPause.Name = "btnPause";
 			this.btnPause.Size = new System.Drawing.Size(108, 32);
 			this.btnPause.TabIndex = 6;
@@ -100,7 +91,7 @@
 			// 
 			this.btnBack.BackColor = System.Drawing.Color.Aqua;
 			this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.btnBack.Location = new System.Drawing.Point(408, 372);
+			this.btnBack.Location = new System.Drawing.Point(400, 380);
 			this.btnBack.Name = "btnBack";
 			this.btnBack.Size = new System.Drawing.Size(87, 32);
 			this.btnBack.TabIndex = 7;
@@ -112,9 +103,9 @@
 			// 
 			this.btnNext.BackColor = System.Drawing.Color.Tomato;
 			this.btnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.btnNext.Location = new System.Drawing.Point(515, 372);
+			this.btnNext.Location = new System.Drawing.Point(502, 380);
 			this.btnNext.Name = "btnNext";
-			this.btnNext.Size = new System.Drawing.Size(85, 32);
+			this.btnNext.Size = new System.Drawing.Size(86, 32);
 			this.btnNext.TabIndex = 8;
 			this.btnNext.Text = "Next";
 			this.btnNext.UseVisualStyleBackColor = false;
@@ -124,12 +115,21 @@
 			// 
 			this.btnPlay.BackColor = System.Drawing.Color.CadetBlue;
 			this.btnPlay.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.btnPlay.Location = new System.Drawing.Point(210, 372);
+			this.btnPlay.Location = new System.Drawing.Point(218, 380);
 			this.btnPlay.Name = "btnPlay";
 			this.btnPlay.Size = new System.Drawing.Size(79, 32);
 			this.btnPlay.TabIndex = 9;
 			this.btnPlay.Text = "Play";
 			this.btnPlay.UseVisualStyleBackColor = false;
+			// 
+			// MediaPlayer
+			// 
+			this.MediaPlayer.Enabled = true;
+			this.MediaPlayer.Location = new System.Drawing.Point(0, 12);
+			this.MediaPlayer.Name = "MediaPlayer";
+			this.MediaPlayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("MediaPlayer.OcxState")));
+			this.MediaPlayer.Size = new System.Drawing.Size(610, 400);
+			this.MediaPlayer.TabIndex = 4;
 			// 
 			// Musical
 			// 
@@ -142,10 +142,12 @@
 			this.Controls.Add(this.btnBack);
 			this.Controls.Add(this.btnPause);
 			this.Controls.Add(this.btnStop);
-			this.Controls.Add(this.MediaPlayer);
 			this.Controls.Add(this.btnSelect);
 			this.Controls.Add(this.ListBoxSongs);
+			this.Controls.Add(this.MediaPlayer);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
 			this.Name = "Musical";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Musical";
 			((System.ComponentModel.ISupportInitialize)(this.MediaPlayer)).EndInit();
 			this.ResumeLayout(false);
@@ -155,11 +157,11 @@
 		#endregion
 		private System.Windows.Forms.ListBox ListBoxSongs;
 		private System.Windows.Forms.Button btnSelect;
-		private AxWMPLib.AxWindowsMediaPlayer MediaPlayer;
 		private System.Windows.Forms.Button btnStop;
 		private System.Windows.Forms.Button btnPause;
 		private System.Windows.Forms.Button btnBack;
 		private System.Windows.Forms.Button btnNext;
 		private System.Windows.Forms.Button btnPlay;
+		private AxWMPLib.AxWindowsMediaPlayer MediaPlayer;
 	}
 }

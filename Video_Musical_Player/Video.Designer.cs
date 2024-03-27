@@ -137,10 +137,10 @@
 			// WMP
 			// 
 			this.WMP.Enabled = true;
-			this.WMP.Location = new System.Drawing.Point(2, 3);
+			this.WMP.Location = new System.Drawing.Point(2, 7);
 			this.WMP.Name = "WMP";
 			this.WMP.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("WMP.OcxState")));
-			this.WMP.Size = new System.Drawing.Size(775, 352);
+			this.WMP.Size = new System.Drawing.Size(772, 348);
 			this.WMP.TabIndex = 0;
 			// 
 			// Video
@@ -156,7 +156,9 @@
 			this.Controls.Add(this.btnPlay);
 			this.Controls.Add(this.panel);
 			this.Controls.Add(this.WMP);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
 			this.Name = "Video";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Video";
 			this.panel.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.WMP)).EndInit();
