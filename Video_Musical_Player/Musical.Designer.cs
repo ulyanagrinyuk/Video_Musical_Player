@@ -125,10 +125,10 @@
 			// MediaPlayer
 			// 
 			this.MediaPlayer.Enabled = true;
-			this.MediaPlayer.Location = new System.Drawing.Point(0, 12);
+			this.MediaPlayer.Location = new System.Drawing.Point(0, 0);
 			this.MediaPlayer.Name = "MediaPlayer";
 			this.MediaPlayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("MediaPlayer.OcxState")));
-			this.MediaPlayer.Size = new System.Drawing.Size(610, 400);
+			this.MediaPlayer.Size = new System.Drawing.Size(610, 412);
 			this.MediaPlayer.TabIndex = 4;
 			// 
 			// Musical

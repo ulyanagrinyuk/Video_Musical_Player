@@ -137,10 +137,10 @@
 			// WMP
 			// 
 			this.WMP.Enabled = true;
-			this.WMP.Location = new System.Drawing.Point(2, 7);
+			this.WMP.Location = new System.Drawing.Point(2, 2);
 			this.WMP.Name = "WMP";
 			this.WMP.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("WMP.OcxState")));
-			this.WMP.Size = new System.Drawing.Size(772, 348);
+			this.WMP.Size = new System.Drawing.Size(772, 353);
 			this.WMP.TabIndex = 0;
 			// 
 			// Video
