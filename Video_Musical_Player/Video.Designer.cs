@@ -122,7 +122,7 @@
 			this.listBoxFilm.FormattingEnabled = true;
 			this.listBoxFilm.Location = new System.Drawing.Point(0, 3);
 			this.listBoxFilm.Name = "listBoxFilm";
-			this.listBoxFilm.Size = new System.Drawing.Size(363, 69);
+			this.listBoxFilm.Size = new System.Drawing.Size(772, 82);
 			this.listBoxFilm.TabIndex = 10;
 			// 
 			// panel
@@ -148,7 +148,7 @@
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.ScrollBar;
-			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.ClientSize = new System.Drawing.Size(777, 450);
 			this.Controls.Add(this.btnNext);
 			this.Controls.Add(this.btnBack);
 			this.Controls.Add(this.btnPause);

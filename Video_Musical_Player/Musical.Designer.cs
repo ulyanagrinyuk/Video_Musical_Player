@@ -42,10 +42,11 @@
 			// 
 			// ListBoxSongs
 			// 
+			this.ListBoxSongs.BackColor = System.Drawing.Color.MediumSeaGreen;
 			this.ListBoxSongs.FormattingEnabled = true;
 			this.ListBoxSongs.Location = new System.Drawing.Point(616, 0);
 			this.ListBoxSongs.Name = "ListBoxSongs";
-			this.ListBoxSongs.Size = new System.Drawing.Size(183, 355);
+			this.ListBoxSongs.Size = new System.Drawing.Size(183, 407);
 			this.ListBoxSongs.TabIndex = 1;
 			this.ListBoxSongs.SelectedIndexChanged += new System.EventHandler(this.ListBoxSongs_SelectedIndexChanged);
 			// 
@@ -54,7 +55,7 @@
 			this.btnSelect.BackColor = System.Drawing.Color.DarkRed;
 			this.btnSelect.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.btnSelect.ForeColor = System.Drawing.SystemColors.ButtonFace;
-			this.btnSelect.Location = new System.Drawing.Point(650, 385);
+			this.btnSelect.Location = new System.Drawing.Point(652, 413);
 			this.btnSelect.Name = "btnSelect";
 			this.btnSelect.Size = new System.Drawing.Size(116, 35);
 			this.btnSelect.TabIndex = 2;
