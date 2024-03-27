@@ -49,10 +49,6 @@ namespace Video_Musical_Player
 			(ListBoxSongs.SelectedIndex)--;
 		}
 
-		private void btnExit_Click(object sender, EventArgs e)
-		{
-			Application.Exit();
-		}
 
 		private void btnSelect_Click(object sender, EventArgs e)
 		{

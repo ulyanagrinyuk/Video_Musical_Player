@@ -62,13 +62,22 @@ namespace Video_Musical_Player
 		}
 
 		private void btnBack_Click(object sender, EventArgs e)
-		{
+		{		
 			(listBoxFilm.SelectedIndex)--;
+			//if(listBoxFilm.SelectedIndex > 0)
+			//{
+			//	listBoxFilm.SelectedIndex = listBoxFilm.SelectedIndex - 1;
+			//}
 		}
 
 		private void btnNext_Click(object sender, EventArgs e)
 		{
 			(listBoxFilm.SelectedIndex)++;
+
+			//if(listBoxFilm.SelectedIndex < listBoxFilm.Items.Count - 1)
+			//{
+			//	listBoxFilm.SelectedIndex = listBoxFilm.SelectedIndex + 1;
+			//}
 		}
 	}
 }
